@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial;
+  background: #f4f7ff;
+}
+
+/* LOGIN SCREEN */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 320px;
+  padding: 30px;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.box h2 {
+  color: #1e40af;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+input:focus {
+  border-color: #1e40af;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #15307a;
+}
+
+p {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #1e40af;
+  font-size: 14px;
+}
+
+/* DASHBOARD */
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard h1 {
+  color: #1e40af;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin-top: 12px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h3 {
+  margin: 0;
+  color: #1e40af;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #444;
+}
+
+/* BOOK BUTTON */
+.card button {
+  margin-top: 10px;
+  background: #2563eb;
+}
+
+.card button:hover {
+  background: #1d4ed8;
+}
